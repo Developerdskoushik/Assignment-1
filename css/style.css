@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #F15B22;
+    color: white;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    border: none;
+    border-radius: 5%;
+}
+
+
+/***********************************banner parts start from here*************************************************/
+
+#banner-part {
+    background: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    /* padding: 300px 250px; */
+
+}
+
+.logo {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 35px;
+    color: #151414;
+}
+
+.menubar {
+    padding: 30px 0px 90px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menubar ul {
+    display: flex;
+    margin-top: 15px;
+}
+
+.menubar ul li {
+    margin: 0px 7px;
+    list-style: none;
+}
+
+.menubar ul li a {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #F15B22;
+    border-radius: 5%;
+    color: white;
+}
+
+.banner-text {
+    text-align: right;
+    padding: 0px 0px 150px 300px;
+}
+
+.banner-text h1 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 60px;
+    color: #151414;
+}
+
+.banner-text p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #151414;
+}
+
+/***********************************banner parts ends here*************************************************/
+
+/***********************************Failure parts start from here*************************************************/
+
+.failure {
+    padding: 10px 10px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.my-img {
+
+    padding: 20px 0px;
+
+}
+
+.resize {
+    width: 450px;
+    height: auto;
+}
+
+.my-text h1 {
+    padding: 160px 50px 20px 50px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
+
+.my-text p {
+    padding: 10px 50px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.failure-list i {
+    color: #16D887;
+    padding-right: 20px;
+}
+
+/***********************************Failure parts end here*************************************************/
+
+
+/***********************************My Plans parts starts here*************************************************/
+.heading h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+    padding: 50px 0px;
+}
+.my-plans{
+    display: flex;
+    gap: 32px;
+    text-align: center;
+
+}
+.plan1{
+    border: .5px solid rgb(170, 167, 167);
+    padding: 21px;
+    border-radius: 5%;
+}
+.plan1 img{
+    padding-bottom: 10px;
+}
+.plan1 h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+    padding-bottom: 20px;
+}
+.plan1 h2{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 15px;
+    color: #151414;
+    padding-bottom: 0px;
+}
+
+#myplan-section{
+    margin-bottom: 50px;
+}
+
+/***********************************My plans parts end here*************************************************/
+
+
+/**************************** Linear gradiant image parts starts here************************************/
+#linear-image{
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.linear{
+    background: linear-gradient(45deg,#F15B22, hsla(0, 4%, 5%, 0.0)), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.linear h1{
+    padding: 60px 60px 20px 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.call-now{
+    margin-left: 60px;
+    margin-bottom: 60px;
+    padding: 10px 15px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    border: 1px solid #F15B22;
+    border-radius: 5%;
+}
+
+/***********************************Linear gradiant image parts end here*************************************************/
+
+
+/***********************************Footer parts Starts here*************************************************/
+
+#footer-part{
+    background-color: #151414;
+}
+.footer{
+    display: flex;
+    gap: 10px;
+}
+.footer-text{
+    padding: 100px 0px 100px 0px;
+}
+.footer-text h1{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #F8F8F8;
+}
+.footer-text p{
+    
+    padding: 10px 0px 10px 0px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 10px;
+    color: #F8F8F8;
+}
+.footer-text ul{
+    display: flex;
+}
+.footer-text ul li{
+    list-style: none;
+    padding: 8px 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px 5px 0px 0px;
+}
+
+.footer-form{
+    padding: 100px 0px 100px 200px;
+}
+.footer-form h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.footer-form input{
+    background-color: #151414;
+    border-radius: 5%;
+    border: 1px solid white;
+    padding: 5px 15px 5px 0px;
+    margin-bottom: 10px;
+}
+.subscribe{
+    padding: 10px 15px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    border: none;
+    border-radius: 7%;
+
+}
+
+
+/***********************************Footer parts end here*************************************************/
